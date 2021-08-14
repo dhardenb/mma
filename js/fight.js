@@ -1,7 +1,7 @@
-var seedrandom = require('seedrandom');
+var seedRandom = require('seedrandom');
 
 function fight(fighterA, fighterB, rngSeed) {
-    var rng = seedrandom(rngSeed);
+    var rng = seedRandom(rngSeed);
 
     firstNumber = rng();
     secondNumber = rng();
