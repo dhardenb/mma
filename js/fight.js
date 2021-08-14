@@ -7,7 +7,7 @@ function fight(fighterA, fighterB, rngSeed) {
     secondNumber = rng();
     thirdNumber = rng();
 
-    return(firstNumber);
+    return();
 }
 
 module.exports = fight;
