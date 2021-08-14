@@ -1,0 +1,17 @@
+{
+  "name": "mma",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "David Hardenbrook",
+  "license": "MIT",
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
