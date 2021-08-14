@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628913459325" clover="3.2.0">
-  <project timestamp="1628913459325" name="All files">
+<coverage generated="1628914686349" clover="3.2.0">
+  <project timestamp="1628914686350" name="All files">
     <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="8" coveredelements="8" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
     <file name="fight.js" path="/Users/davidhardenbrook/Dev/mma/js/fight.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
