@@ -1,7 +1,14 @@
 const fight = require('./fight.js');
 
-test('The first number should be 0.9282578795792454', () => {
-    fighterA = {"name":"Joe", "strength":"3", "agility":"3"},
-    fighterB = {"name":"Dan", "strength":"3", "agility":"3"},
-    expect(fight(fighterA, fighterB, 'hello.')).toBe(0.9282578795792454);
+test('Given the same fighters and rng seed, the fight method should return the same result.', () => {
+
+    randomSeed = Math.random();
+    
+    fighterA = {"name":"Joe", "strength":"3", "agility":"3"};
+    fighterB = {"name":"Dan", "strength":"3", "agility":"3"};
+
+    firstResult = fight(fighterA, fighterB, randomSeed.toString());
+    secondResult = fight(fighterA, fighterB, randomSeed.toString());
+    
+    expect(firstResult).toBe(secondResult);
 });
